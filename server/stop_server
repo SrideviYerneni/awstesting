@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo forever list
+echo "listed running apps"
+sudo forever stopall
+echo "stopped all apps"
